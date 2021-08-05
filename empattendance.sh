@@ -9,10 +9,10 @@ do
 empCheck=$((RANDOM%3))
 case $empCheck in
         $isFullTime)
-        empHrs=16
+        empHrs=8
         ;;
         $isPartTime)
-        empHrs=8
+        empHrs=4
         ;;
         *)
         empHrs=0
